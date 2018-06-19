@@ -1,22 +1,22 @@
 /**
 black theme
  */
-$bg1:#2b2c2c;
-$bg2:#292a2a;
-$color1:#979899;
-$light:#e0a80d;
-$border:#404242;
-$text-gray:#757575;
+// $bg1:#2b2c2c;
+// $bg2:#292a2a;
+// $color1:#979899;
+// $light:#e0a80d;
+// $border:#404242;
+// $text-gray:#757575;
 
 /**
 blue theme
  */
-/*$bg1:#eaeaea;
+$bg1:#eaeaea;
 $bg2:#f3f3f3;
 $color1:#333;
 $light:#23abff;
 $border:#dbdbdb;
-$text-gray:#777;*/
+$text-gray:#777;
 
 @import "common";
 @import "gird";
@@ -29,7 +29,6 @@ ul{
     margin-left: -0.5rem;
     padding-left: 0;
     li{
-      float: left;
       display: inline-block;
       padding: 0 0.5rem;
     }
@@ -283,6 +282,9 @@ ul{
   h4{
     margin-top:0.3rem;
     margin-bottom: 0.8rem;
+  }
+  .contact-bottom {
+    margin-bottom: 1.05rem;
   }
 }
 
