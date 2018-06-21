@@ -158,34 +158,6 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">技能&nbsp;/&nbsp;
-              <small><i>Skills</i></small>
-            </h2>
-            <div class="description">我所掌握的工具和技术栈</div>
-          </div>
-        </header>
-        <div class="section-content">
-          <div class="row skill">
-            <div class="col-md-6" v-for="(s, sIndex) in userInfo.skill" :key="sIndex">
-              <div class="item">
-                <div class="text-info">
-                  <span class="num text-light">{{s.percent}}</span>{{s.name}}
-                </div>
-                <div class="progress">
-                  <div class="progress-bar wow progressShow" :style="'width:'+s.percent"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="section-bg section-header-bg"></div>
-        <div class="section-bg section-content-bg"></div>
-        <header class="header">
-          <div class="content-box">
             <h2 class="title">项目经验&nbsp;/&nbsp;
               <small><i>Experience</i></small>
             </h2>
@@ -215,6 +187,34 @@
                       <li v-for="(techItem,techItemIndex) in tech.content" :key="techItemIndex">{{techItem}}</li>
                     </ul>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-bg section-header-bg"></div>
+        <div class="section-bg section-content-bg"></div>
+        <header class="header">
+          <div class="content-box">
+            <h2 class="title">技能&nbsp;/&nbsp;
+              <small><i>Skills</i></small>
+            </h2>
+            <div class="description">我所掌握的工具和技术栈</div>
+          </div>
+        </header>
+        <div class="section-content">
+          <div class="row skill">
+            <div class="col-md-6" v-for="(s, sIndex) in userInfo.skill" :key="sIndex">
+              <div class="item">
+                <div class="text-info">
+                  <span class="num text-light">{{s.percent}}</span>{{s.name}}
+                </div>
+                <div class="progress">
+                  <div class="progress-bar wow progressShow" :style="'width:'+s.percent"></div>
                 </div>
               </div>
             </div>
