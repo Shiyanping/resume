@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="loading" v-show="!loading">
+    <!-- <div class="loading" v-show="!loading">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
         <rect x="0" y="10.3333" width="4" height="10.3333" fill="#e0a80d">
           <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0s" dur="0.6s" repeatCount="indefinite"></animate>
@@ -16,10 +16,10 @@
         </rect>
       </svg>
     </div>
-    <router-view />
-    <!-- <div class="main-container" loadingstatus="loading" style="">
+    <router-view /> -->
+    <div class="main-container" style="">
       <div class="useful-link no-print">
-        <a href="https://github.com/Shiyanping/resume" title="查看源码" class="github-button"><img src="static/images/star.svg" alt="Github">
+        <a href="https://github.com/Shiyanping/resume" title="查看源码" class="github-button"><img src="https://shiyanping.github.io/resume/static/images/star.svg" alt="Github">
           <span>Star</span>
         </a>
       </div>
@@ -29,7 +29,7 @@
         <div class="container">
           <header class="header">
             <div class="header-box">
-              <div class="avatar wow inShow no-print"><img src="static/images/logo.jpg" alt="logo" class="img-responsive"></div>
+              <div class="avatar wow inShow no-print"><img src="https://shiyanping.github.io/resume/static/images/logo.jpg" alt="logo" class="img-responsive"></div>
               <h1 class="name text-center wow inShow no-print">小石不识月</h1>
               <h1 class="name text-center hide show-print-block">石燕平</h1>
             </div>
@@ -172,7 +172,7 @@
                         <li>淘新闻从创立一直到现在，前端主要是我负责，产品从 0 一直做到目前月收入 2500万，DAU 270万左右。</li>
                         <li>协同后端同学完成管理平台的建设（数据平台、管理后台、投放后台、商城管理后台、内容管理系统、评论审核后台等）。</li>
                         <li>完成各种 app 内嵌的 H5页面（活动页，分享落地页，app 内部说明页，任务大厅等功能页），并且不断优化 H5 页面的加载速度。</li>
-                        <li>在公司之前没有前后端分离的项目下，通过和运维，后端同学的沟通，成功将商城用户端实现前后端分离。</li>
+                        <li>在公司之前没有前后端分离项目的前提下，通过和运维，后端同学的沟通，成功将商城用户端实现前后端分离。</li>
                         <li>推动完善 H5 和客户端的交互流程（scheme -&gt; window 挂载方法 -&gt; JSBridge）。</li>
                       </ul>
                     </div>
@@ -257,7 +257,7 @@
                       <b>主要功能及说明：</b>
                       <ul>
                         <li>成语大神属于公司尝试性小程序，因为 app 和小程序的打通，主要用于 app -&gt; 自己小程序 -&gt; 广告主小程序这个流程的导量，其次为了愉悦用户。</li>
-                        <li>超级默契属于好友互动类小程序，用户出题，分享给好友，好友回答这种一问多答的模式，刺激自家 app 周围的用户，从未为自家 app 导量，其次还有通过好友付费获得答案这个过程，间接拿到部分红利。</li>
+                        <li>超级默契属于好友互动类小程序，用户出题，分享给好友，好友回答这种一问多答的模式，刺激自家 app 周围的用户，从而为自家 app 导量，其次还有通过好友付费获得答案这个过程，间接拿到部分红利。</li>
                         <li>这两个小程序并没有使用 mpvue 和 wepy 框架，后续自己业余开发其他小程序的时候会进行使用。</li>
                       </ul>
                     </div>
@@ -485,6 +485,7 @@
                   <h3 class="text-light">GitHub</h3>
                   <p>分享一些自己的小作品，主要用于查看别人开源的库</p>
                 </a>
+                <!---->
               </div>
               <div class="col-lg-4 col-md-6">
                 <a href="https://www.jianshu.com/u/41e82a22ff46" target="_blank" title="https://www.jianshu.com/u/41e82a22ff46" class="item">
@@ -492,6 +493,7 @@
                   <h3 class="text-light">简书</h3>
                   <p>与志同道合的小伙伴分享知识</p>
                 </a>
+                <!---->
               </div>
               <div class="col-lg-4 col-md-6">
                 <a href="https://juejin.im/user/59c27af36fb9a00a5831832e" target="_blank" title="https://juejin.im/user/59c27af36fb9a00a5831832e" class="item">
@@ -499,6 +501,7 @@
                   <h3 class="text-light">掘金</h3>
                   <p>搜索解决一些问题，探索新奇的技术</p>
                 </a>
+                <!---->
               </div>
             </div>
           </div>
@@ -556,7 +559,7 @@
           </div>
         </div>
       </section>
-    </div> -->
+    </div>
   </div>
 </template>
 
