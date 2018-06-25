@@ -1,9 +1,9 @@
 <template>
   <div class="main-container" v-show="$parent.loading" style="display: none;">
     <div class="useful-link no-print">
-      <!--<a class="theme-link" href="/index2.html"></a>-->
       <a class="github-button" href="https://github.com/Shiyanping/resume" title="查看源码">
-        <img src="https://github.com/Shiyanping/resume/static/images/star.svg" alt="Github"><span>Star</span>
+        <img src="https://shiyanping.github.io/resume/static/images/star.svg" alt="Github">
+        <span>Star</span>
       </a>
     </div>
     <section class="section section-header">
@@ -32,7 +32,7 @@
                 <div class="col-xs-6 col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.3s">
                     <h4>性别</h4>
-                    <div class="info">{{userInfo.sex}}</div>
+                    <div class="info">男</div>
                   </div>
                 </div>
                 <div class="col-xs-6 col-md-6 col-lg-3">
@@ -92,7 +92,9 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">介绍&nbsp;/&nbsp;
-              <small><i>Intro</i></small>
+              <small>
+                <i>Intro</i>
+              </small>
             </h2>
             <div class="description">个人基本情况</div>
           </div>
@@ -103,7 +105,9 @@
           </div>
           <div class="technology">
             <ul class="inline">
-              <li><b>{{userInfo.intro.technology.title}}</b></li>
+              <li>
+                <b>{{userInfo.intro.technology.title}}</b>
+              </li>
               <li v-for="(item, itemIndex) in userInfo.intro.technology.content" :key="itemIndex">{{item}}</li>
             </ul>
           </div>
@@ -117,7 +121,9 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">工作经验&nbsp;/&nbsp;
-              <small><i>Experience</i></small>
+              <small>
+                <i>Experience</i>
+              </small>
             </h2>
             <div class="description">简短的从业经历介绍</div>
           </div>
@@ -159,7 +165,9 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">项目经验&nbsp;/&nbsp;
-              <small><i>Experience</i></small>
+              <small>
+                <i>Experience</i>
+              </small>
             </h2>
             <div class="description">近期主要做过的一些项目</div>
           </div>
@@ -201,7 +209,9 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">技能&nbsp;/&nbsp;
-              <small><i>Skills</i></small>
+              <small>
+                <i>Skills</i>
+              </small>
             </h2>
             <div class="description">我所掌握的工具和技术栈</div>
           </div>
@@ -229,7 +239,9 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">常逛&nbsp;/&nbsp;
-              <small><i>Usually</i></small>
+              <small>
+                <i>Usually</i>
+              </small>
             </h2>
             <div class="description">经常逛的技术相关网站</div>
           </div>
@@ -259,7 +271,9 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">联系&nbsp;/&nbsp;
-              <small><i>Contact</i></small>
+              <small>
+                <i>Contact</i>
+              </small>
             </h2>
             <div class="description">通过这些信息可以联系到我</div>
           </div>
@@ -306,54 +320,59 @@
 </template>
 
 <script>
-  export default {
-    name: 'front',
-    data() {
-      return {
-        userInfo: {
-          exp:[],
-          qq:{},
-          intro:{
-            content:[],
-            technology:{
-              title:'',
-              content:[]
-            }
-          },
-          experience:[{
-            tips:{
-              title:'',
-              content:[],
-            },
-            technology:[],
-          }],
-          skill:[],
-          project:[{
-            tips:{
-              title:'',
-              content:[],
-            },
-            technology:[],
-          }],
-          usually:[],
+import axios from 'axios';
+export default {
+  name: 'front',
+  data: function() {
+    return {
+      userInfo: {
+        exp: [],
+        qq: {},
+        intro: {
+          content: [],
+          technology: {
+            title: '',
+            content: []
+          }
         },
+        experience: [
+          {
+            tips: {
+              title: '',
+              content: []
+            },
+            technology: []
+          }
+        ],
+        skill: [],
+        project: [
+          {
+            tips: {
+              title: '',
+              content: []
+            },
+            technology: []
+          }
+        ],
+        usually: []
       }
-    },
-    created(){
-      var self = this;
-      console.log(self)
-      this.$http.get('https://shiyanping.github.io/resume/static/resume.json').then((res) =>{
-        console.log(res);
-        self.userInfo = res.body;
-        this.$parent.loading = true;
-      });
-    },
-    methods:{
-      calcDate(birthday){
-        let birthdayDate = new Date(birthday);
-        let todyDate = new Date();
-        return todyDate.getYear() - birthdayDate.getYear() + 1
-      }
+    };
+  },
+  created: function() {
+    var self = this;
+    console.log(axios);
+    axios.get('/static/resume.json').then(res => {
+      console.log(res);
+      self.userInfo = res.data;
+      this.$parent.loading = true;
+    });
+  },
+  methods: {
+    calcDate(birthday) {
+      let birthdayDate = new Date(birthday);
+      let todyDate = new Date();
+      return todyDate.getYear() - birthdayDate.getYear() + 1;
     }
   }
+};
 </script>

@@ -44,3 +44,5 @@ clone项目，进入master分支。在static目录下找到resume.json文件，�
 
 ## 其他
 基于vue-cli重构。master分支只用于预览。源码请到dev分支。
+
+** 如果想将简历页面放到 github page 上，只需要将生成的页面 cope 到 app.vue 中，将原本 vue 的结构注释即可**
