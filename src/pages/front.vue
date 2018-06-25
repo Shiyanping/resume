@@ -3,7 +3,7 @@
     <div class="useful-link no-print">
       <!--<a class="theme-link" href="/index2.html"></a>-->
       <a class="github-button" href="https://github.com/Shiyanping/resume" title="查看源码">
-        <img src="/static/images/star.svg" alt="Github"><span>Star</span>
+        <img src="https://github.com/Shiyanping/resume/static/images/star.svg" alt="Github"><span>Star</span>
       </a>
     </div>
     <section class="section section-header">
@@ -13,7 +13,7 @@
         <header class="header">
           <div class="header-box">
             <div class="avatar wow inShow no-print">
-              <img src="/static/images/logo.jpg" alt="logo" class="img-responsive">
+              <img src="https://shiyanping.github.io/resume/static/images/logo.jpg" alt="logo" class="img-responsive">
             </div>
             <h1 class="name text-center wow inShow no-print">{{userInfo.nickname}}</h1>
             <h1 class="name text-center hide show-print-block">{{userInfo.name}}</h1>
@@ -341,7 +341,8 @@
     },
     created(){
       var self = this;
-      this.$http.get('../../static/resume.json').then((res) =>{
+      console.log(self)
+      this.$http.get('https://shiyanping.github.io/resume/static/resume.json').then((res) =>{
         console.log(res);
         self.userInfo = res.body;
         this.$parent.loading = true;
