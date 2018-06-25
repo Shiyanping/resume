@@ -341,7 +341,8 @@
     },
     created(){
       var self = this;
-      this.$http.get('/static/resume.json').then((res) =>{
+      this.$http.get('../../static/resume.json').then((res) =>{
+        console.log(res);
         self.userInfo = res.body;
         this.$parent.loading = true;
       });
