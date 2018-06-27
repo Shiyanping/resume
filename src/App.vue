@@ -73,13 +73,13 @@
                   <div class="col-md-6 col-lg-3">
                     <div data-wow-delay="0.6s" class="item wow inShow">
                       <h4>Phone</h4>
-                      <address class="info">13260298521</address>
+                      <address class="info">13260298521(微信号)</address>
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-3">
                     <div data-wow-delay="0.65s" class="item wow inShow">
-                      <h4>QQ</h4>
-                      <div class="info">594388036</div>
+                      <h4>邮箱</h4>
+                      <div class="info">594388036@qq.com</div>
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-3">

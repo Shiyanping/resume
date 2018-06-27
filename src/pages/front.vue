@@ -57,14 +57,14 @@
               <div class="row">
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.6s">
-                    <h4>Phone</h4>
+                    <h4>Phone(微信同号)</h4>
                     <address class="info">{{userInfo.phone}}</address>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.65s">
-                    <h4>QQ</h4>
-                    <div class="info">{{userInfo.qq.number}}</div>
+                    <h4>邮箱</h4>
+                    <div class="info">{{userInfo.qq.number}}@qq.com</div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
