@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy:build": "node build/build.js && gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.18.0",
