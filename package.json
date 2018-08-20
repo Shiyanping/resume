@@ -8,6 +8,7 @@
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
+    "deploy": "gh-pages -d dist",
     "deploy:build": "node build/build.js && gh-pages -d dist"
   },
   "dependencies": {
