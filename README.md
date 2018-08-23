@@ -1,6 +1,6 @@
 ## 简介
 
-> 个人简历模板，fork 于 [eternityspring](eternityspring/eternityspring.github.io)
+> 个人简历模板，fork 于 [eternityspring](https://github.com/eternityspring/eternityspring.github.io)
 
 ### 初始化项目
 
