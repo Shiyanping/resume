@@ -1,244 +1,194 @@
 {
-  "name":"石燕平",
-  "sex":"男",
-  "birthday":"1994-06-27",
-  "workSince":"2015-02-01",
-  "exp":["毕业","年工作","年"],
-  "nickname":"小石不识月",
-  "firstName":"Shi",
-  "lastName":"yanping",
-  "slogan":"努力成为卓越并且专业的工程师",
-  "tips":"Ctrl+p可以印本简历，打印时显示真名",
-  "education":"本科",
-  "phone":13260298521,
-  "location":"Beijing·China",
-  "qq":{
-    "number":"594388036"
+  "name": "石燕平",
+  "sex": "男",
+  "birthday": "1994-06-27",
+  "workSince": "2016-02-15",
+  "exp": ["毕业", "年工作", "年"],
+  "nickname": "小石",
+  "firstName": "Shi",
+  "lastName": "yanping",
+  "slogan": "业精于勤荒于嬉，行成于思毁于随",
+  "tips": "Ctrl+p可以印本简历，打印时显示真名",
+  "education": "内蒙古工业大学",
+  "phone": 13260298521,
+  "location": "Beijing·China",
+  "qq": {
+    "number": "594388036"
   },
-  "website":"https://shiyanping.github.io",
-  "github":"https://github.com/Shiyanping",
-  "email":"594388036@qq.com",
-  "intro":{
-    "content":[
-      "毕业因为热爱前端，所以在实习公司通过自己的努力和前辈的帮忙，成为一名合格的前端攻城狮。",
-      "熟悉前端流行的框架，使用 vue 搭建过中型后台管理系统和手机端页面。",
-      "喜欢折腾，但是工作上比较务实，平时喜欢看一些技术文章。",
-      "有小程序开发经验，目前线上的小程序有“成语大神”和“超级默契“。",
-      "目前的主要工作内容为混合开发"
+  "website": "https://www.shiyanping.top",
+  "github": "https://github.com/Shiyanping",
+  "email": "594388036@qq.com",
+  "intro": {
+    "content": [
+      "细读过部分 vue 2.0 的源码，对 vue 3.0 的新特性也比较关注。",
+      "有小程序开发经验，使用小程序原生语言和 mpvue 都开发过线上项目。",
+      "了解 H5 和客户端交互，并能合理的解决 H5 在 Native 上存在的兼容问题。",
+      "可以使用 Node 编写程序，也了解 Node 线上部署。对 PHP 也有一定的了解。",
+      "技术上喜欢折腾，不局限于前端。Typescript，Nginx，Linux，前端工程化都有一些了解。"
     ],
-    "technology":{
-      "title":"用过的技术栈：",
-      "content":[
-        "jquery","vue","stylus","less","gulp","webpack","各种UI框架（ Bootstrap, element-ui ）","JSBridge（H5与客户端交互框架）"
-      ]
+    "technology": {
+      "title": "",
+      "content": []
     }
   },
-  "experience":[
+  "experience": [
     {
-      "time":"2016.08-目前",
-      "title":"北京酷划在线",
-      "intro":"前端开发",
-      "description":"主要负责淘新闻产品线（用户端和管理后台）及小程序的开发，规范前端开发流程及代码规范，协同产品经理确定需求，配合后端和客户端定义及联调接口，推动产品发展。",
-      "tips":[
+      "time": "2016.08-目前",
+      "title": "北京酷划在线",
+      "intro": "前端开发",
+      "description": "主要负责淘新闻产品线（用户端和管理后台）及小程序的开发，规范前端开发流程，有推动过产品部分功能的开发建设。",
+      "tips": [
         {
-          "title":"主要业绩：",
-          "content":[
-            "淘新闻从创立一直到现在，前端主要是我负责，产品从 0 一直做到目前月收入 2500万，DAU 270万左右。",
-            "协同后端同学完成管理平台的建设（数据平台、管理后台、投放后台、商城管理后台、内容管理系统、评论审核后台等）。",
-            "完成各种 app 内嵌的 H5页面（活动页，分享落地页，app 内部说明页，任务大厅等功能页），并且不断优化 H5 页面的加载速度。",
-            "在公司之前没有前后端分离项目的前提下，通过和运维，后端同学的沟通，成功将商城用户端实现前后端分离。",
-            "推动完善 H5 和客户端的交互流程（scheme -> window 挂载方法 -> JSBridge）。"
+          "title": "主要业绩：",
+          "content": [
+            "主导淘新闻前端，产品从 0 一直做到目前月收入 3000 万以上，DAU 270万左右。",
+            "推动公司内部管理系统的构建。",
+            "做技术选型，推动主要项目做 vue 重构。偶尔会做一些技术分享。"
           ]
         }
       ],
-      "technology":[
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "vue","less","scss","stylus","element-ui","gulp","webpack","jquery"
-          ]
+          "title": "技术栈：",
+          "content": ["vue", "node", "webpack", "gulp", "jquery"]
         }
       ]
     },
     {
-      "time":"2016.01-2016.08",
-      "title":"北京魔力爱普",
-      "intro":"前端实习生-前端开发",
-      "description":"在公司期间，大部分精力都用于前端学习及锻炼型的业务开发。很感谢我的 leader 可以让我根据项目逐步学习，代码从最初的 css,js 转到 less,jquery，从 less,jquery 转到 scss,stylus,vue。熟悉了 gulp，基于 gulp 做了部分前端自动化构建的工具。同时也更加深入的学习了 vue 框架，了解了 react,angular。",
-      "tips":[
+      "time": "2016.02-2016.08",
+      "title": "北京九休旅行",
+      "intro": "前端实习生-前端开发",
+      "description": "在公司期间，大部分精力都用于前端学习及锻炼型的业务开发。很感谢我的 leader 可以让我根据项目逐步学习。开发的过程中更加深入的学习 vue，对 react，angular，gulp 都有一定的了解。",
+      "tips": [
         {
-          "title":"主要业绩：",
-          "content":[
-            "主要完成 app 内嵌H5页和微信公众号的开发。",
-            "完善公司官网（添加动画）及PC端管理后台。",
-            "负责和后台人员进行沟通，完成产品的迭代",
-            "利用工作之余学习 vue 和前端工程化工具。"
-          ]
+          "title": "主要业绩：",
+          "content": ["完成 app 内嵌 H5 页和微信公众号的开发。", "完善公司官网及 PC 端管理后台。", "利用工作之余学习 vue 和前端工程化工具。"]
         }
       ],
-      "technology":[
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "js","css","jquery","vue","bootstrap","gulp"
-          ]
+          "title": "",
+          "content": []
         }
       ]
     }
   ],
-  "skill":[
+  "skill": [
     {
-      "name":"JavaScript",
-      "percent":"70%"
+      "name": "JavaScript",
+      "percent": "80%"
     },
     {
-      "name":"Vue",
-      "percent":"65%"
+      "name": "Vue",
+      "percent": "75%"
     },
     {
-      "name":"Css",
-      "percent":"80%"
+      "name": "CSS",
+      "percent": "80%"
     },
     {
-      "name":"Bootstrap（栅格布局的概念）",
-      "percent":"85%"
-    },
-    {
-      "name":"Git 及 svn",
-      "percent":"75%"
-    },
-    {
-      "name":"PhotoShop",
-      "percent":"60%"
+      "name": "Node",
+      "percent": "60%"
     }
   ],
-  "project":[
+  "project": [
     {
-      "time":"2018.04-2018.06",
-      "title":"超级默契、成语大神",
-      "intro":"两个娱乐类小程序",
-      "description":"目前在线上的两个小程序，属于娱乐问答类小程序，有给广告主小程序导量，帮助自家 app 导量的功能。",
-      "tips":[
+      "time": "2019.01-至今",
+      "title": "CMS 系统",
+      "intro": "快速生成广告运营 H5 落地页",
+      "description": "CMS 系统分为管理后台和 H5 落地页两部分组成，帮助广告运营同学快速创建 H5 落地页，减轻开发人员的工作量。",
+      "tips": [
         {
-          "title":"主要功能及说明：",
-          "content":[
-            "成语大神属于公司尝试性小程序，因为 app 和小程序的打通，主要用于 app -> 自己小程序 -> 广告主小程序这个流程的导量，其次为了愉悦用户。",
-            "超级默契属于好友互动类小程序，用户出题，分享给好友，好友回答这种一问多答的模式，刺激自家 app 周围的用户，从而为自家 app 导量，其次还有通过好友付费获得答案这个过程，间接拿到部分红利。",
-            "这两个小程序并没有使用 mpvue 和 wepy 框架，后续自己业余开发其他小程序的时候会进行使用。"
-          ]
+          "title": "主要功能及说明：",
+          "content": ["管理后台：创建 H5 落地页模板，广告运营通过模板生成 H5 落地页。", "H5 落地页：通过后台配置的数据，通过预渲染生成 html，然后上传到落地页，用户访问。"]
         }
       ],
-      "technology":[
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "小程序开发语法", "小程序api"
-          ]
+          "title": "技术栈：",
+          "content": ["node", "vue", "MongoDB"]
         }
       ]
     },
     {
-      "time":"2018.01-持续更新",
-      "title":"数据平台",
-      "intro":"对实时数据进行可视化管理",
-      "description":"可以对数据组统计的数据进行查询，部分实时指标进行可视化呈现，数据平台还包括留存分析、漏斗分析、客服审单分析、商城反作弊数据等模块",
-      "tips":[
+      "time": "2018.02-2018.07",
+      "title": "超级默契、淘热点 ...",
+      "intro": "公司探索性产品",
+      "description": "给公司做的四款探索性小程序，两款娱乐性小程序，两款新闻类小程序。",
+      "tips": [
         {
-          "title":"主要功能及总结：",
-          "content":[
-            "主要将数据组的数据进行展示，但是数据组返回的 json 很庞大，需要前端对返回来的数据进行处理，导致代码量和页面很复杂，后来和数据组商量，改为后端处理数据，前端再将返回的数据处理成图表所需要的数据，减少前端处理数据的逻辑。",
-            "使用 vue 全家桶开发，初期因为没有将组件化思想贯彻到底，只是将公共的组件提取，每个页面中的内容没有进行提取，所以等页面多了之后，代码维护起来很不方便，后期将页面中可以提取的内容都进行了组件拆分，放到页面的 component 中。"
-          ]
+          "title": "主要功能及说明：",
+          "content": ["通过小程序给 Native 导量", "帮助公司探索微信小程序生态圈"]
         }
       ],
-      "technology":[
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "vue", "vue-router", "echarts", "element-ui", "webpack"
-          ]
+          "title": "技术栈：",
+          "content": ["mpvue", "小程序原生语法"]
         }
       ]
     },
     {
-      "time":"2017.12-2018.01",
-      "title":"酷划官网",
-      "intro":"https://www.coohua.com",
-      "description":"将酷划官网进行重构，在之前的静态页面上添加CSS3动画，并且将官网进行了响应式适配。",
-      "tips":[
+      "time": "2017.01-持续更新",
+      "title": "淘新闻",
+      "intro": "一个集新闻，视频于一体的 APP",
+      "description": "一款让用户通过阅读，做任务获取收益。通过阅读新闻增长见识的 APP，类似今日头条极速版。",
+      "tips": [
         {
-          "title":"主要功能及总结：",
-          "content":[
-            "在原本纯静态的页面上添加动画，起初用到一些 js 动画，但是感觉 js，jquery 动画使页面性能有所下降，最后修改为css动画，使页面看起来更加流畅。",
-            "起初 PC端官网 和移动端官网是两套代码，两个域名，为了更好的体验，来回切换时不会重新刷新页面，所以做了响应式适配。",
-            "对官网做了 SEO 优化，在搜索引擎上更加靠前。"
+          "title": "主要功能：",
+          "content": [
+            "APP 里面大部分页面都是 H5 的，通过将 H5 内嵌到 webview 中，实现敏捷开发，及时上线。",
+            "新闻详情页使用了服务器端渲染，前端配合 java 完成。",
+            "通过 jsbridge，scheme 完成 H5 与客户端的数据沟通。"
           ]
         }
       ],
-      "technology":[
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "css3","html","js"
-          ]
+          "title": "技术栈：",
+          "content": ["vue", "webpack", "jsbridge"]
         }
       ]
     },
     {
-      "time":"2017.04-2017.05",
-      "title":"酷划商城",
-      "intro":"内嵌 app 内部的商城",
-      "description":"商城包括商城管理后台和用户端，在连续一个月的辛勤劳动下正式上线运行。在公司没有任何项目实现前后端分离的情况下，用户端商城成功完成前后端分离",
-      "tips":[
+      "time": "2017.03-2017.04",
+      "title": "酷划商城",
+      "intro": "内嵌 app 内的商城",
+      "description": "商城包括商城管理后台和用户端，在连续一个月的辛勤劳动下上线运行。在公司之前没有任何项目实现前后端分离的情况下，用户端商城成功完成前后端分离，踩了一些坑。",
+      "tips": [
         {
-          "title":"主要功能及总结：",
-          "content":[
-            "用户端商城同其他的商城一样，有完善的购买流程，初期同一套代码用在三条产品线上",
-            "完成商城管理后台（商品管理，订单管理，物流管理）",
-            "初期后端架构师的意思是商城只用于消耗用户积分，与业务逻辑区分，但是后续在持续的迭代中，商城加入了很多产品的业务逻辑，就导致代码管理不方便，在今年4月初，我将三个产品线代码进行了分离。",
-            "目前正在同后端及项目经理协商，使用 vue 重构客户端和管理后台"
-          ]
+          "title": "主要功能及总结：",
+          "content": ["同一套代码运行在多个端，三个产品线。", "初期前端页面使用 jquery + artTemplate 完成，后续将技术栈修改成了 vue。", "前后端分离，通过 nginx 配置，解决跨域问题。"]
         }
       ],
-      "technology":[
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "jquery","artTemplate","less"
-          ]
-        }
-      ]
-    },
-    {
-      "time":"2016.12-至今",
-      "title":"淘新闻 app 内嵌 H5",
-      "intro":"",
-      "description":"app 内嵌的 H5 页面，其中主要包括任务大厅，新闻详情页，各种活动页，帮助中心，各种说明页，各种分享落地页",
-      "technology":[
-        {
-          "title":"技术栈：",
-          "content":[
-            "vue","less","scss","gulp","第三方js框架"
-          ]
+          "title": "",
+          "content": []
         }
       ]
     }
   ],
-  "usually":[
+  "usually": [
     {
-      "name":"GitHub",
-      "link":"https://github.com/Shiyanping",
-      "description":"分享一些自己的小作品，主要用于查看别人开源的库"
+      "name": "GitHub",
+      "link": "https://github.com/Shiyanping",
+      "description": "分享自己总结的东西，借鉴别人的开源项目"
     },
     {
-      "name":"简书",
-      "link":"https://www.jianshu.com/u/41e82a22ff46",
-      "description":"与志同道合的小伙伴分享知识"
+      "name": "Blog",
+      "link": "https://www.shiyanping.top",
+      "description": "将自己的所学所用，总结分享给大家"
     },
     {
-      "name":"掘金",
-      "link":"https://juejin.im/user/59c27af36fb9a00a5831832e",
-      "description":"搜索解决一些问题，探索新奇的技术"
+      "name": "掘金",
+      "link": "https://juejin.im/user/59c27af36fb9a00a5831832e",
+      "description": "分享技术，学习技术"
+    },
+    {
+      "name": "MDN",
+      "link": "https://developer.mozilla.org/",
+      "description": "查文档，学习新技术"
     }
   ]
 }
