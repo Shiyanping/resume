@@ -35,29 +35,29 @@
                     <div class="info">男</div>
                   </div>
                 </div>
-                <!-- <div class="col-xs-6 col-md-6 col-lg-3">
+                <div class="col-xs-6 col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.45s">
                     <h4>年龄</h4>
                     <div class="info">{{calcDate(userInfo.birthday)}}</div>
                   </div>
-                </div> -->
+                </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.5s" :href="'mailto:'+userInfo.email">
-                    <h4>学历</h4>
+                    <h4>毕业学校</h4>
                     <div class="info">{{userInfo.education}}</div>
                   </div>
                 </div>
-                <!-- <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3">
                   <a class="item wow inShow" data-wow-delay="0.55s" :href="userInfo.website" target="_blank">
                     <h4>经验</h4>
                     <div class="info">{{userInfo.exp[0]+(calcDate(userInfo.workSince)-1)+userInfo.exp[1]+(calcDate(userInfo.workSince)-0.5)+userInfo.exp[2]}}</div>
                   </a>
-                </div> -->
+                </div>
               </div>
               <div class="row">
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.6s">
-                    <h4>Phone(微信同号)</h4>
+                    <h4>Phone</h4>
                     <address class="info">{{userInfo.phone}}</address>
                   </div>
                 </div>
@@ -96,14 +96,14 @@
                 <i>Intro</i>
               </small>
             </h2>
-            <div class="description">个人基本情况</div>
+            <div class="description">个人基本技能</div>
           </div>
         </header>
         <div class="section-content">
           <div class="intro">
             <p v-for="(intro, introIndex) in userInfo.intro.content" :key="introIndex" v-html="intro"></p>
           </div>
-          <div class="technology">
+          <div class="technology" v-if="userInfo.intro.technology.title != ''">
             <ul class="inline">
               <li>
                 <b>{{userInfo.intro.technology.title}}</b>
@@ -114,7 +114,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="section">
+    <section class="section">
       <div class="container">
         <div class="section-bg section-header-bg"></div>
         <div class="section-bg section-content-bg"></div>
@@ -157,7 +157,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <section class="section">
       <div class="container">
         <div class="section-bg section-header-bg"></div>

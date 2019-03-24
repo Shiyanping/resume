@@ -45,7 +45,7 @@ npm run deploy
 - 打包部署
 
 ```bash
-npm run deploy:build
+npm run predeploy
 ```
 
 ### 制作自己的简历
